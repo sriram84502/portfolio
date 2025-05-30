@@ -50,9 +50,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
+            <img src="/images/logo.png" alt="Logo" width={50} height={50} />
             <a href="#" className="text-xl font-bold">
-              <span className="text-primary">Maganti</span>
-              <span className={isScrolled ? 'text-white' : 'text-foreground'}>Services</span>
+              <span className="text-primary">Whitemate</span>
+              <span className={isScrolled ? 'text-white' : 'text-foreground'}>Solutions</span>
             </a>
           </div>
 

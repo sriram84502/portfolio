@@ -6,9 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-1">
-            <a href="#" className="text-xl font-bold mb-6 inline-block">
-              <span className="text-primary">Maganti</span>Services
-            </a>
+            <img src="/images/logo.png" alt="Logo" width={50} height={50} />
             <p className="text-slate-300 mt-4 max-w-md">
               Your partner for creative visual solutions, helping businesses and individuals bring their vision to life with expert design and production.
             </p>
@@ -93,10 +91,10 @@ const Footer = () => {
         
         <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm">
-            © {new Date().getFullYear()} Maganti Services. All rights reserved.
+            © {new Date().getFullYear()} Whitemate Solutions. All rights reserved.
           </p>
           <p className="text-slate-400 text-sm flex items-center mt-4 md:mt-0">
-            Made with <Heart className="h-4 w-4 mx-1 text-accent" /> by Maganti Services
+            Made with <Heart className="h-4 w-4 mx-1 text-accent" /> by Whitemate Solutions
           </p>
         </div>
       </div>
