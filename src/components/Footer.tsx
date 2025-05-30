@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-1">
-            <img src="/images/logo.png" alt="Logo" width={50} height={50} />
             <p className="text-slate-300 mt-4 max-w-md">
               Your partner for creative visual solutions, helping businesses and individuals bring their vision to life with expert design and production.
             </p>
